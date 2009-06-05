@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		276E16780D73095A00AB7A6C /* NSBezierPath-MailAppetizerAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 276E16770D73095A00AB7A6C /* NSBezierPath-MailAppetizerAdditions.m */; };
+		27E492280D7243E900DECE07 /* NSParagraphStyle-StyleAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E492270D7243E900DECE07 /* NSParagraphStyle-StyleAdditions.m */; };
+		27E4924A0D72449600DECE07 /* BBHoverButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E492490D72449600DECE07 /* BBHoverButton.m */; };
+		27E492560D7244F500DECE07 /* BBNotificationPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E492550D7244F500DECE07 /* BBNotificationPanel.m */; };
+		27E492590D72450200DECE07 /* BBMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E492580D72450200DECE07 /* BBMessage.m */; };
+		27E4925C0D72450B00DECE07 /* BBNotificationServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E4925B0D72450B00DECE07 /* BBNotificationServer.m */; };
+		27E4928C0D72476200DECE07 /* BBWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E4928A0D72476200DECE07 /* BBWindowController.m */; };
+		27E4928D0D72476200DECE07 /* BBResizeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E4928B0D72476200DECE07 /* BBResizeView.m */; };
+		27E492B10D72491F00DECE07 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E492B00D72491F00DECE07 /* AddressBook.framework */; };
+		27E492C60D72496C00DECE07 /* action_hovered.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 27E492B50D72496C00DECE07 /* action_hovered.tiff */; };
+		27E492C70D72496C00DECE07 /* action_pressed.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 27E492B60D72496C00DECE07 /* action_pressed.tiff */; };
+		27E492C80D72496C00DECE07 /* action.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 27E492B70D72496C00DECE07 /* action.tiff */; };
+		27E492C90D72496C00DECE07 /* close_hovered.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 27E492B80D72496C00DECE07 /* close_hovered.tiff */; };
+		27E492CA0D72496C00DECE07 /* close_pressed.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 27E492B90D72496C00DECE07 /* close_pressed.tiff */; };
+		27E492CB0D72496C00DECE07 /* close.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 27E492BA0D72496C00DECE07 /* close.tiff */; };
+		27E492CC0D72496C00DECE07 /* delete_hovered.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 27E492BB0D72496C00DECE07 /* delete_hovered.tiff */; };
+		27E492CD0D72496C00DECE07 /* delete_pressed.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 27E492BC0D72496C00DECE07 /* delete_pressed.tiff */; };
+		27E492CE0D72496C00DECE07 /* delete.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 27E492BD0D72496C00DECE07 /* delete.tiff */; };
+		27E492CF0D72496C00DECE07 /* open_hovered.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 27E492BE0D72496C00DECE07 /* open_hovered.tiff */; };
+		27E492D00D72496C00DECE07 /* open_pressed.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 27E492BF0D72496C00DECE07 /* open_pressed.tiff */; };
+		27E492D10D72496C00DECE07 /* open.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 27E492C00D72496C00DECE07 /* open.tiff */; };
+		27E492D20D72496C00DECE07 /* read_hovered.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 27E492C10D72496C00DECE07 /* read_hovered.tiff */; };
+		27E492D30D72496C00DECE07 /* read_pressed.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 27E492C20D72496C00DECE07 /* read_pressed.tiff */; };
+		27E492D40D72496C00DECE07 /* read.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 27E492C30D72496C00DECE07 /* read.tiff */; };
+		27E492D50D72496C00DECE07 /* resize.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 27E492C40D72496C00DECE07 /* resize.tiff */; };
+		27E492D60D72496C00DECE07 /* sender.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 27E492C50D72496C00DECE07 /* sender.tiff */; };
+		27E492D90D72497D00DECE07 /* BBNotificationServer.nib in Resources */ = {isa = PBXBuildFile; fileRef = 27E492D70D72497D00DECE07 /* BBNotificationServer.nib */; };
+		27E492DB0D72499400DECE07 /* Defaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27E492DA0D72499400DECE07 /* Defaults.plist */; };
+		27E4930B0D724D9A00DECE07 /* BBBezelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E4930A0D724D9A00DECE07 /* BBBezelView.m */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		276E16770D73095A00AB7A6C /* NSBezierPath-MailAppetizerAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSBezierPath-MailAppetizerAdditions.m"; path = "../NSBezierPath-MailAppetizerAdditions.m"; sourceTree = SOURCE_ROOT; };
+		27E492270D7243E900DECE07 /* NSParagraphStyle-StyleAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSParagraphStyle-StyleAdditions.m"; path = "../NSParagraphStyle-StyleAdditions.m"; sourceTree = SOURCE_ROOT; };
+		27E492490D72449600DECE07 /* BBHoverButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBHoverButton.m; path = ../BBHoverButton.m; sourceTree = SOURCE_ROOT; };
+		27E492550D7244F500DECE07 /* BBNotificationPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBNotificationPanel.m; path = ../BBNotificationPanel.m; sourceTree = SOURCE_ROOT; };
+		27E492580D72450200DECE07 /* BBMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBMessage.m; path = ../BBMessage.m; sourceTree = SOURCE_ROOT; };
+		27E4925B0D72450B00DECE07 /* BBNotificationServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBNotificationServer.m; path = ../BBNotificationServer.m; sourceTree = "<group>"; };
+		27E4928A0D72476200DECE07 /* BBWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBWindowController.m; path = ../BBWindowController.m; sourceTree = SOURCE_ROOT; };
+		27E4928B0D72476200DECE07 /* BBResizeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBResizeView.m; path = ../BBResizeView.m; sourceTree = SOURCE_ROOT; };
+		27E492B00D72491F00DECE07 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = /System/Library/Frameworks/AddressBook.framework; sourceTree = "<absolute>"; };
+		27E492B50D72496C00DECE07 /* action_hovered.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = action_hovered.tiff; path = Images/action_hovered.tiff; sourceTree = "<group>"; };
+		27E492B60D72496C00DECE07 /* action_pressed.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = action_pressed.tiff; path = Images/action_pressed.tiff; sourceTree = "<group>"; };
+		27E492B70D72496C00DECE07 /* action.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = action.tiff; path = Images/action.tiff; sourceTree = "<group>"; };
+		27E492B80D72496C00DECE07 /* close_hovered.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = close_hovered.tiff; path = Images/close_hovered.tiff; sourceTree = "<group>"; };
+		27E492B90D72496C00DECE07 /* close_pressed.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = close_pressed.tiff; path = Images/close_pressed.tiff; sourceTree = "<group>"; };
+		27E492BA0D72496C00DECE07 /* close.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = close.tiff; path = Images/close.tiff; sourceTree = "<group>"; };
+		27E492BB0D72496C00DECE07 /* delete_hovered.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = delete_hovered.tiff; path = Images/delete_hovered.tiff; sourceTree = "<group>"; };
+		27E492BC0D72496C00DECE07 /* delete_pressed.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = delete_pressed.tiff; path = Images/delete_pressed.tiff; sourceTree = "<group>"; };
+		27E492BD0D72496C00DECE07 /* delete.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = delete.tiff; path = Images/delete.tiff; sourceTree = "<group>"; };
+		27E492BE0D72496C00DECE07 /* open_hovered.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = open_hovered.tiff; path = Images/open_hovered.tiff; sourceTree = "<group>"; };
+		27E492BF0D72496C00DECE07 /* open_pressed.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = open_pressed.tiff; path = Images/open_pressed.tiff; sourceTree = "<group>"; };
+		27E492C00D72496C00DECE07 /* open.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = open.tiff; path = Images/open.tiff; sourceTree = "<group>"; };
+		27E492C10D72496C00DECE07 /* read_hovered.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = read_hovered.tiff; path = Images/read_hovered.tiff; sourceTree = "<group>"; };
+		27E492C20D72496C00DECE07 /* read_pressed.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = read_pressed.tiff; path = Images/read_pressed.tiff; sourceTree = "<group>"; };
+		27E492C30D72496C00DECE07 /* read.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = read.tiff; path = Images/read.tiff; sourceTree = "<group>"; };
+		27E492C40D72496C00DECE07 /* resize.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = resize.tiff; path = Images/resize.tiff; sourceTree = "<group>"; };
+		27E492C50D72496C00DECE07 /* sender.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = sender.tiff; path = Images/sender.tiff; sourceTree = "<group>"; };
+		27E492D80D72497D00DECE07 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/BBNotificationServer.nib; sourceTree = "<group>"; };
+		27E492DA0D72499400DECE07 /* Defaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Defaults.plist; sourceTree = "<group>"; };
+		27E4930A0D724D9A00DECE07 /* BBBezelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBBezelView.m; path = ../BBBezelView.m; sourceTree = SOURCE_ROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* BBNotificationServer_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBNotificationServer_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* BBNotificationServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BBNotificationServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				27E492B10D72491F00DECE07 /* AddressBook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				276E16770D73095A00AB7A6C /* NSBezierPath-MailAppetizerAdditions.m */,
+				27E4930A0D724D9A00DECE07 /* BBBezelView.m */,
+				27E4928A0D72476200DECE07 /* BBWindowController.m */,
+				27E4928B0D72476200DECE07 /* BBResizeView.m */,
+				27E4925B0D72450B00DECE07 /* BBNotificationServer.m */,
+				27E492580D72450200DECE07 /* BBMessage.m */,
+				27E492550D7244F500DECE07 /* BBNotificationPanel.m */,
+				27E492490D72449600DECE07 /* BBHoverButton.m */,
+				27E492270D7243E900DECE07 /* NSParagraphStyle-StyleAdditions.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27E492B00D72491F00DECE07 /* AddressBook.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* BBNotificationServer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* BBNotificationServer */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = BBNotificationServer;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* BBNotificationServer_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				27E492DA0D72499400DECE07 /* Defaults.plist */,
+				27E492D70D72497D00DECE07 /* BBNotificationServer.nib */,
+				27E492B50D72496C00DECE07 /* action_hovered.tiff */,
+				27E492B60D72496C00DECE07 /* action_pressed.tiff */,
+				27E492B70D72496C00DECE07 /* action.tiff */,
+				27E492B80D72496C00DECE07 /* close_hovered.tiff */,
+				27E492B90D72496C00DECE07 /* close_pressed.tiff */,
+				27E492BA0D72496C00DECE07 /* close.tiff */,
+				27E492BB0D72496C00DECE07 /* delete_hovered.tiff */,
+				27E492BC0D72496C00DECE07 /* delete_pressed.tiff */,
+				27E492BD0D72496C00DECE07 /* delete.tiff */,
+				27E492BE0D72496C00DECE07 /* open_hovered.tiff */,
+				27E492BF0D72496C00DECE07 /* open_pressed.tiff */,
+				27E492C00D72496C00DECE07 /* open.tiff */,
+				27E492C10D72496C00DECE07 /* read_hovered.tiff */,
+				27E492C20D72496C00DECE07 /* read_pressed.tiff */,
+				27E492C30D72496C00DECE07 /* read.tiff */,
+				27E492C40D72496C00DECE07 /* resize.tiff */,
+				27E492C50D72496C00DECE07 /* sender.tiff */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* BBNotificationServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "BBNotificationServer" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BBNotificationServer;
+			productInstallPath = "$(HOME)/Applications";
+			productName = BBNotificationServer;
+			productReference = 8D1107320486CEB800E47090 /* BBNotificationServer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "BBNotificationServer" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* BBNotificationServer */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* BBNotificationServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27E492C60D72496C00DECE07 /* action_hovered.tiff in Resources */,
+				27E492C70D72496C00DECE07 /* action_pressed.tiff in Resources */,
+				27E492C80D72496C00DECE07 /* action.tiff in Resources */,
+				27E492C90D72496C00DECE07 /* close_hovered.tiff in Resources */,
+				27E492CA0D72496C00DECE07 /* close_pressed.tiff in Resources */,
+				27E492CB0D72496C00DECE07 /* close.tiff in Resources */,
+				27E492CC0D72496C00DECE07 /* delete_hovered.tiff in Resources */,
+				27E492CD0D72496C00DECE07 /* delete_pressed.tiff in Resources */,
+				27E492CE0D72496C00DECE07 /* delete.tiff in Resources */,
+				27E492CF0D72496C00DECE07 /* open_hovered.tiff in Resources */,
+				27E492D00D72496C00DECE07 /* open_pressed.tiff in Resources */,
+				27E492D10D72496C00DECE07 /* open.tiff in Resources */,
+				27E492D20D72496C00DECE07 /* read_hovered.tiff in Resources */,
+				27E492D30D72496C00DECE07 /* read_pressed.tiff in Resources */,
+				27E492D40D72496C00DECE07 /* read.tiff in Resources */,
+				27E492D50D72496C00DECE07 /* resize.tiff in Resources */,
+				27E492D60D72496C00DECE07 /* sender.tiff in Resources */,
+				27E492D90D72497D00DECE07 /* BBNotificationServer.nib in Resources */,
+				27E492DB0D72499400DECE07 /* Defaults.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				27E492280D7243E900DECE07 /* NSParagraphStyle-StyleAdditions.m in Sources */,
+				27E4924A0D72449600DECE07 /* BBHoverButton.m in Sources */,
+				27E492560D7244F500DECE07 /* BBNotificationPanel.m in Sources */,
+				27E492590D72450200DECE07 /* BBMessage.m in Sources */,
+				27E4925C0D72450B00DECE07 /* BBNotificationServer.m in Sources */,
+				27E4928C0D72476200DECE07 /* BBWindowController.m in Sources */,
+				27E4928D0D72476200DECE07 /* BBResizeView.m in Sources */,
+				27E4930B0D724D9A00DECE07 /* BBBezelView.m in Sources */,
+				276E16780D73095A00AB7A6C /* NSBezierPath-MailAppetizerAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		27E492D70D72497D00DECE07 /* BBNotificationServer.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27E492D80D72497D00DECE07 /* English */,
+			);
+			name = BBNotificationServer.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BBNotificationServer_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = BBNotificationServer;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../headers";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BBNotificationServer_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = BBNotificationServer;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../headers";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/include";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/include";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "BBNotificationServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "BBNotificationServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

@@ -1,0 +1,22 @@
+{
+    IBClasses = (
+        {CLASS = BBBezelView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = BBNotificationPanel; LANGUAGE = ObjC; SUPERCLASS = NSPanel; }, 
+        {
+            ACTIONS = {test = id; }; 
+            CLASS = BBNotificationServer; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"_windowController" = BBWindowController; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {setBackgroundColor = id; }; 
+            CLASS = BBWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"_mainView" = BBBezelView; delegate = id; }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}
